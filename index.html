@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="formulario">
+    <h1>Cadastre-se</h1>
+    <p>È fácil e rápido.</p>
+     <hr>
+    <form method="get" action="index.html">
+        <input type="text" name="nome" placeholder="Nome">
+        <input type="text" name="sobrenome" placeholder="Sobrenome">
+        <br>
+        <div class="celular-email">
+            <input type="text" name="celuar ou email" placeholder="Celular ou email" class="celular-email">
+        </div>
+        
+        <div class="senha">
+            <input type="password" name="senha" placeholder="Senha" class="senha-do-usuario">
+        </div>
+       
+         
+        <br>
+        <label>Data de nascimento</label>
+            <br>
+    <select name="dias" class="data">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+
+    <select name="mes" id="mes" class="data">
+        <option value="Jan">Jan</option>
+        <option value="Fev">Fev</option>
+        <option value="Mar">Mar</option>
+        <option value="Abr">Abr</option>
+        <option value="Mai">Mai</option>
+        <option value="Jun">Jun</option>
+        <option value="Jul">Jul</option>
+        <option value="Ago">Ago</option>
+        <option value="Set">Set</option>
+        <option value="Out">Out</option>
+        <option value="Nov">Nov</option>
+        <option value="Dez">Dez</option>
+    </select>
+
+    <select name="ano" id="ano" class="data">
+        <option value="2000">2000</option>
+        <option value="">2001</option>
+        <option value="">2002</option>
+        <option value="">2003</option>
+        <option value="">2004</option>
+        <option value="">2005</option>
+        <option value="">2005</option>
+        <option value="">2006</option>
+        <option value="">2007</option>
+        <option value="">2008</option>
+        <option value="">2009</option>
+        <option value="">2010</option>
+    </select>
+    <br>
+    <br>
+    <label>Genero</label>
+    <br>
+    
+    <input type="radio" name="genero" id="Masculino">
+    <label for="masculino">Masculino</label>
+
+    
+    <input type="radio" name="genero" id="Feminino">
+    <label for="Feminino">Feminino</label>
+
+   
+    <input type="radio" name="genero" id="Personalizado">
+    <label for="Personalizado">Personalizado</label>
+    <br>
+
+    <div class="enviar">
+        <input type="submit" id="enviar" value="Cadastra-se" class="botao">
+    </div>
+    </form>
+
+    <!--
+         http://127.0.0.1:5500/7-formulario/index.html?nome=Joao&sobrenome
+         =Batista&celuar+ou+email=joaopaulonevesbatista
+         20%40gmail.com&senha=Joao2005%40&dias=6&mes=Ago&ano=&genero=on
+    -->
+    
+</div>
+    
+
+</body>
+
+</html>

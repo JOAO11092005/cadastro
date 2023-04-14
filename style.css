@@ -1,0 +1,54 @@
+/* body .formulario{
+    margin: 100px;
+    margin-right:1px;
+    background-color: blue;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 20px;
+} */
+
+body .formulario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 100px;
+    padding: 19px;
+    border-radius: 20px;
+    margin-right: 410px;
+    margin-left: 450px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(201, 201, 255);
+
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+
+}
+body .formulario .data{
+    padding: 6px;
+    padding-left: 40px;
+    border-radius: 13px;
+    border-style: solid;
+    
+}
+body .formulario .celular-email{
+    padding-right: 194px;
+    
+}
+body .formulario .senha .senha-do-usuario{
+    padding-right: 194px;
+}
+body .formulario .enviar{
+    margin-left: 160px;
+}
+body .formulario .enviar .botao{
+    background-color: rgb(57, 196, 57);
+    padding: 9px;
+    margin-right: 8px;
+    font-size: 13px;
+    padding-right: 14px;
+    border-style: solid;
+    border-color: #7700FF00;
+    border-radius: 20px;
+}
